@@ -1,15 +1,15 @@
 import "../styles/header.scss"
 
 interface HeaderProps {
-	title: string
+  title: string
 }
 
 export function Header({ title }: HeaderProps) {
-	return (
-		<header>
-			<span className="category">
-				Categoria:<span> {title}</span>
-			</span>
-		</header>
-	)
+  return (
+    <header>
+      <span className="category">
+        Categoria:<span> {title}</span>
+      </span>
+    </header>
+  )
 }
